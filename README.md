@@ -115,7 +115,7 @@ To translate all documentation files to German, update `ai.json` with a translat
   "inputDir": "docs/",
   "openai": {
     "model": "gpt-3.5-turbo",
-    "prompt": "You are translator. Translate the document to French, keeping technical accuracy."
+    "prompt": "You are translator. Translate the document to German, keeping technical accuracy."
   }
 }
 ```
