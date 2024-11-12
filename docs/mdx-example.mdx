@@ -1,0 +1,85 @@
+---
+id: some-id
+title: Introduction
+description: Introduction Description
+sidebar_label: Introduction
+sidebar_position: 3
+---
+
+# Sample MDX File with Java Code Snippets
+
+This MDX file contains Java code examples and some basic markup to demonstrate syntax highlighting and MDX structure.
+
+## Example Java Class
+
+Below is a simple Java class:
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+    }
+}
+```
+## Example Markup in MDX
+
+<details>
+    <summary>Important Summary</summary>
+
+    ```cpp
+    javac --some-argument
+    ```
+
+    ```java
+    public static int getSomething(int n) {
+    System.out.println('important summary');
+    return n;
+}
+    ```
+</details>
+
+## Example Table
+
+    | Column One  | Column Two              |
+    |-------------|-------------------------|
+    | `one`       | Message one             |
+    | `Tow`       | Message one             |
+    | `Three`     | Message three           |
+
+## Example Annotation
+
+    :::note
+    Important Annotation
+    :::
+
+## Using Markdown and JSX Together
+
+In MDX, you can mix Markdown with JSX. Here's an example:
+
+```jsx
+<div style={{ backgroundColor: '#f9f9f9', padding: '10px', borderRadius: '5px' }}>
+    <h3>This is a JSX block within MDX</h3>
+    <p>MDX allows you to use JavaScript and React components directly in your markdown files.</p>
+</div>
+```
+
+## Java Method Example
+
+Here is an example of a Java method that calculates the factorial of a number:
+
+```java
+public int factorial(int n) {
+    if (n <= 1) return 1;
+    return n * factorial(n - 1);
+}
+```
+
+## JSX and Markdown Usage in MDX
+
+You can even use components within the markdown, such as custom buttons or alerts.
+
+```jsx
+<button style={{ backgroundColor: 'blue', color: 'white', padding: '8px', borderRadius: '4px' }}>
+    Click Me
+</button>
+```

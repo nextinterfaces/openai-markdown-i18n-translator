@@ -1,0 +1,17 @@
+{
+  "name": "open-ai-markdown-translator",
+  "version": "1.0.0",
+  "license": "Unlicense",
+  "scripts": {
+    "ai-improve": "node src/index.mjs --config ai.prompt.improve.json",
+    "ai-translate": "node src/index.mjs --config ai.prompt.translate.json"
+  },
+  "dependencies": {
+    "commander": "12.1.0",
+    "dotenv": "16.4.5",
+    "fs": "0.0.1-security",
+    "gpt-3-encoder": "1.1.4",
+    "js-yaml": "4.1.0",
+    "openai": "4.67.3"
+  }
+}

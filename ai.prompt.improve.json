@@ -1,0 +1,7 @@
+{
+  "inputDir": "docs/",
+  "openai": {
+    "model": "gpt-3.5-turbo",
+    "prompt": "You are a Technical Writer. Improve the technical document using simpler and developer friendly tone. Apply emoticons."
+  }
+}
