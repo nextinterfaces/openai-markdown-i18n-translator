@@ -108,7 +108,7 @@ Run `yarn ai-improve`, and the tool will process each Markdown file in `docs/`, 
 
 ## Sample Use Case: Translating Documentation to German
 
-To translate all documentation files to Japanese, update `ai.json` with a translation prompt:
+To translate all documentation files to German, update `ai.json` with a translation prompt:
 
 ```json
 {
@@ -120,7 +120,7 @@ To translate all documentation files to Japanese, update `ai.json` with a transl
 }
 ```
 
-Run `yarn ai-translator`, and the tool will generate Japanese translations of each Markdown file.
+Run `yarn ai-translator`, and the tool will generate German translations of each Markdown file.
 
 ---
 
